@@ -41,7 +41,8 @@ input[type=submit]:hover {
 <h3>Contact Form</h3>
 
 <div class="container">
-  <form action="/action_page.php">
+<iframe id="hidden_iframe" name="hidden_iframe" onload="if(submitted){);}" style="display: none;"></iframe>
+            <form action="docs.google.com/forms/d/1IfINMLOOWAO6ZgEsBK5d-V0ihz5Bq_yyJ6CidppDwMM/formResponse" id="ss-form" method="POST" onsubmit="fadeEffect.init('fade', 1);document.getElementById('fade').style.display = 'block'" target="hidden_iframe">
     <label for="fname">First Name</label>
     <input type="text" id="i.err.1862187698" name="entry.1150528447" placeholder="Your name..">
 
